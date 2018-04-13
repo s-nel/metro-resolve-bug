@@ -1,0 +1,19 @@
+{
+  "name": "MetroBug",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "bundle": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --platform android --dev false --reset-cache --bundle-output main.bundle"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-native": "0.55.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jsdom": "11.6.2",
+    "jsdom-global": "3.0.2"
+  }
+}
